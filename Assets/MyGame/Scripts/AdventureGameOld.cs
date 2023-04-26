@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEditor;
+
 
 public class AdventureGameOld : MonoBehaviour {
-
+    private const string StateInfoAlarm = "Info.Alarm";
     private static readonly System.Random getrandom = new System.Random();
     [SerializeField] Text textIntroComponent;
     [SerializeField] Text textStoryComponent;
@@ -123,7 +121,7 @@ public class AdventureGameOld : MonoBehaviour {
 
         }
 
-        if (nextState.name == "Info.Alarm")
+        if (nextState.name == StateInfoAlarm)
         {
             ResetCounters();
             Debug.Log("Counters Reseted + " + passedStatesCount + " " + collectedWoolCount + " " + dehydrationCount);

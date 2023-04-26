@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class AdventureGame : MonoBehaviour
 {
+    private const string STATEINFOARLARM = "Info.Alarm";
 
     //private static readonly System.Random getrandom = new System.Random(123);
 
@@ -126,7 +127,7 @@ public class AdventureGame : MonoBehaviour
 
         }
 
-        if (nextState.name == "Info.Alarm")
+        if (nextState.name == STATEINFOARLARM)
         {
             ResetCounters();
             Debug.Log("Counters Reseted + " + passedStatesCount + " " + collectedWoolCount + " " + dehydrationCount);
