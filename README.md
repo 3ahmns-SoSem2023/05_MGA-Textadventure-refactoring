@@ -16,7 +16,7 @@ In this area a special kind of wool is produced which extracts water or argon fr
 Eduard now has the goal to find the wool before the fighting robots, who also aim to collect the wool to 
 produce laser weapons on the basis of acron. 
 
-**Development platform**: Windows 10; Unity 2020.3.18f1, Visual Studio 2019
+**Development platform**: MacOs 13.3.1 (a); Unity 2020.3.18f1, Visual Studio 2019
 
 
 **Third-Party Sources**: 
